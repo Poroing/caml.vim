@@ -1,2 +1,5 @@
 #Vim
 *.swp
+
+#Test file
+test.ml
