@@ -81,7 +81,7 @@ syn keyword  camlKeyword  else raise rec type
 syn keyword  camlKeyword  fun when while with
 syn keyword  camlKeyword  let match mutable of
 syn keyword  camlKeyword  function in value
-syn keyword  camlBoolean  true false
+syn keyword  camlBoolean  true false ref
 
 syn keyword  camlType     vect bool char exn float format format4
 syn keyword  camlType     int int32 int64 lazy_t list nativeint option
