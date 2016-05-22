@@ -81,6 +81,7 @@ syn keyword  camlKeyword  else raise rec type
 syn keyword  camlKeyword  fun when while with
 syn keyword  camlKeyword  let match mutable of
 syn keyword  camlKeyword  function in value ref
+syn keyword  camlKeyword  prefix
 syn keyword  camlBoolean  true false 
 
 syn keyword  camlType     vect bool char exn float format format4
