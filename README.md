@@ -4,17 +4,16 @@ Modification of the original ocaml.vim to fit Caml syntax.
 ## Usage
 
 In the shell:
-```
-$ git clone https://github.com/Poroing/caml.vim.git
-$ mkdir -p ~/.vim/after/syntax/
-$ cp caml.vim/caml.vim .vim/after/syntax/
-```
+	$ git clone https://github.com/Poroing/caml.vim.git
+Then
+	$ mkdir -p ~/.vim/after/syntax/
+	$ cp caml.vim/caml.vim .vim/after/syntax/
+Or
+	$ ./install.sh
 
 In your `.vimrc` add:
-```
-au BufNewFile,BufRead *.ml set filetype=caml
-au BufNewFile,BufRead *.mli set filetype=caml
-```
+	au BufNewFile,BufRead *.ml set filetype=caml
+	au BufNewFile,BufRead *.ml set filetype=caml
 
 ## Author Note
 
