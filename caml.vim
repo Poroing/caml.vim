@@ -82,7 +82,7 @@ syn keyword  camlKeyword  fun when while with
 syn keyword  camlKeyword  let match mutable of
 syn keyword  camlKeyword  function in value ref
 syn keyword  camlKeyword  prefix
-syn keyword  camlBoolean  true false 
+syn keyword  camlBoolean  true false
 
 syn keyword  camlType     vect bool char exn float format format4
 syn keyword  camlType     int int32 int64 lazy_t list nativeint option
@@ -123,6 +123,7 @@ syn match    camlKeyChar      "\~"
 syn match    camlKeyChar      "?"
 syn match    camlKeyChar      "\*"
 syn match    camlKeyChar      "="
+syn match    camlKeyChar      "!"
 
 syn match    camlOperator   "<-"
 
@@ -198,7 +199,7 @@ if version >= 508 || !exists("did_caml_syntax_inits")
 
   HiLink camlEncl	   Keyword
 
-  HiLink camlInclude       Include     
+  HiLink camlInclude       Include
 
   delcommand HiLink
 endif
